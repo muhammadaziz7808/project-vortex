@@ -1,21 +1,33 @@
-MIT License
+# Project Vortex
 
-Copyright (c) 2026 muhammadaziz7808
+> **User-Driven Error Correction Framework & Dynamic Engagement Architecture for Large Language Models (LLMs)**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Overview
+Project Vortex is a Python-based prototype designed to solve critical behavioral friction points in modern LLM interaction architectures:
+1. **Context Drift Persistence:** Clinging to outdated context roots after the user shifts the topic.
+2. **Interaction Fatigue:** Monotonous, overly agreeable, and non-challenging responses.
+3. **Forced Engagement:** Intrusive insertion of facts or arguments inside the response body without user consent.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## Key Features & Architecture
+
+### 1. Module A: Topic Boundary Detection & Context Reset
+Evaluates semantic root overlap across conversation turns. If a new topic is detected with low keyword overlap, the system automatically triggers a **Context Reset** to prevent context pollution while archiving prior context.
+
+### 2. Module B: Dual-Mode Dialogue (0° / 180° Mirror Engine)
+- **0° Precision Mode:** Direct, concise, and neutral delivery for factual and scientific queries.
+- **180° Contest Mode:** Adopts a logically sound, constructive counter-perspective for philosophical or creative prompts to foster cognitive engagement.
+
+### 3. Module C: Permission-Based Engagement Chips (UX Layer)
+Shifts proactive engagement (e.g., debate invitations, extra facts) out of the primary response body and into discrete user-controlled interaction chips.
+
+## Quick Start & Execution
+
+Clone the repository and run the engine prototype locally:
+
+```bash
+git clone [https://github.com/YOUR-USERNAME/project-vortex.git](https://github.com/YOUR-USERNAME/project-vortex.git)
+cd project-vortex
+python project_vortex.py
